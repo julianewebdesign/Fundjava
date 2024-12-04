@@ -1,0 +1,172 @@
+@charset "utf-8";
+
+/* 
+Um reset de página é quando nós reiniciamos a página. 
+Por essa a razão que começamos com o valor 0, pois é o valor inicial de uma página.
+ */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: unset;
+
+}
+
+/*
+ "pixel": serve dimensões (largura x altura)
+ "vh" e/ou "vw": para largura da tela (mobile first)
+ "em" e/ou "rem": serve SOMENTE para fontes (mobile first / CSS3) 
+ */
+html {
+  height: 100%;
+}
+
+/*
+adicionar cor ao fundo
+  */
+
+body {
+  background-image: linear-gradient(to bottom, #7b6b95 50%, #978fa3 100%);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+
+/* 
+PARA CONFIGURAR O CSS VAMOS ATRIBUIR ESTRUTURAS E DEPOIS OS OBJETOS
+*/
+
+header {
+  background-color: #4a3c62;
+  margin-top: 7px;
+  border-radius: 7px;
+  width: 90vw;
+  margin: auto;
+  text-align: center;
+  color: lightcyan;
+}
+
+#burger {
+  background-color: #5a4c73;
+  display: block;
+  color: whitesmoke;
+  text-align: center;
+  margin: auto;
+  padding: 7px;
+  width: 90vw;
+  cursor: pointer;
+}
+
+#burger:hover {
+  background-color: #6b5b84;
+}
+
+menu {
+  color: whitesmoke;
+  text-align: center;
+  margin-top: 5px;
+  width: 90vw;
+  margin: auto;
+  list-style-type: none;
+  background-color: #5a4c73;
+}
+
+menu>ul {
+  list-style-type: none;
+}
+
+menu>ul>li>a {
+  display: block;
+  padding: 7px;
+  text-decoration: none;
+  text-align: center;
+  background-color: #5a4c73;
+  border-radius: 9px, 9px;
+  color: whitesmoke;
+  margin: auto;
+}
+
+menu>ul>li>a:hover {
+  background-color: #6b5b84;
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+
+main {
+  background-color: #9b89b9;
+  margin-top: 7px;
+  border-radius: 11px;
+  width: 90vw;
+  margin: auto;
+  text-align: center;
+  padding: 3px;
+}
+
+
+p {
+  text-indent: 30px;
+  font-family: 'Times New Roman';
+  font-weight: 300;
+  text-align: left;
+  color: aliceblue;
+  margin-bottom: 10px;
+}
+
+h1 {
+
+  text-align: center;
+  color: #ffffff;
+  padding: 3px;
+  text-shadow: #c96085 1px 1px 10px;
+  margin-top: 17px;
+
+}
+
+h2 {
+  text-align: center;
+  color: #ffff7c;
+  padding: 3px;
+  text-shadow: #c96085 1px 1px 10px;
+  margin-top: 5px;
+
+}
+
+
+
+
+h3 {
+  text-indent: 30px;
+  font-family: 'Times New Roman';
+  font-weight: 500;
+  text-align: left;
+  color: #ffff7c;
+  margin-bottom: 10px;
+
+}
+
+
+nav>a {
+  color: whitesmoke;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+footer {
+  background-color: #6b5b84;
+  text-align: center;
+  border-radius: 0px 0px 7px 7px;
+  width: 90vw;
+  padding: 7px;
+  margin: 1px auto 0;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
