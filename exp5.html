@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Como funcionam</title>
+    <!--Aula 11: Introdução ao JavaScript: variáveis, tipos de dados e operadores.
+    https://paletadecores.com/paleta/00bad3/00a8c1/0096af/00849c/00728a/
+    https://mycolor.space/?hex=%2300BAD3&sub=1
+    -->
+    <link rel="shortcut icon" href="./assets/favicon5.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/exp5.css">
+</head>
+
+<body>
+    <header>
+        <h1>Como funcionam</h1>
+    </header>
+
+
+    <span id="burger" class="material-symbols-outlined" onclick="clickMenu()">
+        Menu
+    </span>
+
+    <menu id="itens">
+        <ul>
+            <li><a href="./index.html">Introdução ao Javascript</a></li>
+            <li><a href="./exp2.html">Variáveis, tipos de dados.</a></li>
+            <li><a href="./exp3.html">Loops e condicionais.</a></li>
+            <li><a href="./exp4.html">Prompts de comando</a></li>
+            <li><a href="./exp5.html">Como os prompts funcionam</a></li>
+        </ul>
+    </menu>
+
+
+    <main>
+
+        <h2>Como os prompts de comando funcionam</h2>
+
+        <div class="content">
+
+            <img src="./assets/prompt.png" alt="" width="190" height="250">
+
+            <p> Os prompts de comando funcionam como instruções diretas fornecidas a um sistema ou programa para
+                executar uma ação específica. </p>
+            <p> Linhas de Comando no Terminal: Em sistemas operacionais como Windows, macOS ou Linux, você pode usar o
+                terminal para executar comandos diretamente. Prompt: Prompt: cd /caminho/para/diretorio. Ação: Altera o
+                diretório de trabalho atual para o especificado.</p>
+            <p> Modelos de Linguagem: Modelos de IA como eu usam prompts para gerar texto baseado na instrução
+                fornecida.Prompt: "Explique como os prompts de comando funcionam."Ação: Gera uma explicação detalhada
+                sobre o funcionamento dos prompts de comando.</p>
+            <p> Função prompt() em JavaScript: Em JavaScript, a função prompt() exibe uma caixa de diálogo que solicita
+                uma entrada do usuário.Prompt: let resposta = prompt("Qual é seu nome?");Ação: Abre uma caixa de diálogo
+                e armazena a entrada do usuário na variável resposta.</p>
+            <p>Shell Scripts: Scripts de shell usam comandos para automatizar tarefas no sistema operacional. Prompt:
+                #!/bin/bash\necho "Digite seu nome:"\nread nome\necho "Olá, $nome!". Ação: Executa um script que pede ao
+                usuário para digitar o nome e depois exibe uma saudação personalizada.</p>
+        </div>
+
+
+    </main>
+    <footer>
+        <p>&copy; Juliane - 2024</p>
+    </footer>
+    <!-- aqui é o final do footer -->
+    <script src="./assets/js/exp.js">
+        /*Identificadores
+        camelCase;
+        $in_front;
+        _in_front;
+        não pode usar espaços, palavras reservadas
+        */
+        //Nesta primeira mensagem vamos exibir uma mensagem
+        //var, let, const -> tipos de variavel!  
+        window.alert('Vamos aprender a Calcular!')
+
+        // vamos colocar uma valor de 0 até 9
+        let A = prompt('Digite uma numero de 0 até 9:')
+
+        /* vamos colocar uma valor de 0 até 9, não pode ser maior 
+        que esse valores.
+        */
+        let B = prompt('Digite outro numero de 0 até 9:')
+        // O que é isso? 
+
+        if (A > B) {
+            alert('Esse valor A é Maior ' + A)
+        } else {
+            alert('O valor de B é Maior ' + B)
+        }
+        // O que isso ?
+
+        window.confirm('Podemos continuar ?')
+
+
+        // document.write('O resultado desta conta é ${C}')
+        // document.write(`O resultado desta conta é ${C}`)
+
+
+
+
+
+    </script>
+    <!-- aqui é o final do body -->
+</body>
+
+</html>

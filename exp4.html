@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prompts</title>
+    <!--Aula 11: Introdução ao JavaScript: variáveis, tipos de dados e operadores.
+    https://paletadecores.com/paleta/00bad3/00a8c1/0096af/00849c/00728a/
+    https://mycolor.space/?hex=%2300BAD3&sub=1
+    -->
+    <link rel="shortcut icon" href="./assets/favicon4.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/exp4.css">
+</head>
+
+<body>
+    <header>
+        <h1>Prompts de comando</h1>
+    </header>
+
+    <span id="burger" class="material-symbols-outlined" onclick="clickMenu()">
+        Menu
+    </span>
+
+    <menu id="itens">
+        <ul>
+            <li><a href="./index.html">Introdução ao Javascript</a></li>
+            <li><a href="./exp2.html">Variáveis, tipos de dados.</a></li>
+            <li><a href="./exp3.html">Loops e condicionais.</a></li>
+            <li><a href="./exp4.html">Prompts de comando</a></li>
+            <li><a href="./exp5.html">Como os prompts funcionam</a></li>
+        </ul>
+    </menu>
+
+
+    <main>
+
+        <h2>O que são prompts</h2>
+
+        <div class="content">
+            <img src="./assets/prompt.png" alt="" width="190" height="250">
+
+            <p>Em termos de programação e inteligência artificial, um "prompt" é uma instrução ou input fornecido a um
+                sistema ou modelo para que ele possa gerar uma saída ou resposta. Em outras palavras, é como o comando
+                ou pergunta que você dá para o sistema responder ou agir. Por exemplo, quando você me faz uma pergunta
+                ou pede algo, isso é o seu "prompt" para mim.</p>
+            <h4>Exemplos</h4>
+            <p>Na Programação: Quando você usa a função prompt em JavaScript, ela exibe uma caixa de diálogo que
+                solicita ao usuário que insira algum valor.</p>
+            <p>Em Modelos de Linguagem como eu:Você fornece uma instrução ou pergunta, e o modelo gera uma resposta
+                baseada nisso. Prompt: "Escreva uma história curta sobre um dragão." Resposta: "Era uma vez um dragão
+                que vivia nas montanhas e guardava um tesouro antigo..."</p>
+            <p> Em Design Gráfico e Arte: Em ferramentas de geração de arte, você pode fornecer um prompt descritivo
+                para gerar uma imagem baseada na descrição.Prompt: "Desenhe um pôr do sol sobre um lago
+                sereno."Resposta: A ferramenta gera uma imagem conforme a descrição.</p>
+            <p>Em Assistentes Virtuais: Fornecer um comando específico para que o assistente realize uma tarefa. Prompt:
+                "Lembre-me de comprar leite amanhã às 9h."Resposta: O assistente cria um lembrete para o horário
+                solicitado.</p>
+        </div>
+
+
+    </main>
+    <footer>
+        <p>&copy; Juliane - 2024</p>
+        <!-- aqui é o final do footer -->
+    </footer>
+
+    <!-- /*Identificadores
+        camelCase;
+        $in_front;
+        _in_front;
+        não pode usar espaços, palavras reservadas
+        
+        var, let, const -> tipos de variavel!  
+        */
+    -->
+    <script src="./assets/js/exp.js"></script>
+    <!-- aqui é o final do body -->
+
+
+    <!-- <script>
+
+        window.alert('Vamos descobrir que periodo é agora !?')
+        let agora = new Date()
+        let hora = agora.getHours()
+
+        //        let idade = prompt(`Qual sua idade: ? `)
+
+        if (hora < 12) {
+            window.alert(`Bom dia !`)
+
+        } else if (hora <= 18) {
+            window.alert(`Boa Tarde !`)
+
+        } else {
+            window.alert(`Boa noite...`)
+        }
+
+
+
+        window.alert('Vamos descobrir se pode votar !?')
+        let idade = prompt(`Qual sua idade: ? `)
+
+        if (idade < 16) {
+            alert(`Você não pode votar !`)
+        
+        } else if (idade < 18 || idade >65) {
+        
+        } else {
+            alert(`Voto é Obrigatorio!`)
+        }
+
+
+
+
+        window.alert('Vamos para o Desafio dos Animes!')
+
+        let animePersonaA = prompt(`Escolha um dos personagens: Goku-DBZ, Naruto-Naruto Shippuden, Light-Dead Note`)
+
+        let animePersonaB = prompt(`Escolha um dos personagens: Edward-Aullmetal Alchemist, Naruto-Naruto Shippuden,
+    Light-Dead Note`)
+
+        if (animePersonaA > animePersonaB) {
+            document.write(`Ele é o melhor dos Animes ${animePersonaA}`)
+        } else {
+            document.write(`Ele é o melhor dos Animes ${animePersonaA}`)
+        }
+    </script> -->
+</body>
+
+</html>

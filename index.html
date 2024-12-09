@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introdução</title>
+    <!--Aula 11: Introdução ao JavaScript: variáveis, tipos de dados e operadores.
+    https://paletadecores.com/paleta/00bad3/00a8c1/0096af/00849c/00728a/
+    https://mycolor.space/?hex=%2300BAD3&sub=1
+    -->
+    <link rel="shortcut icon" href="./assets/favicon1.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/exp.css">
+</head>
+
+<body onresize="mudouTamanho()">
+    <header>
+        <h1>Introdução ao JavaScript: variáveis, tipos de dados e operadores.</h1>
+    </header>
+
+    <!-- Alterar o tipo do menu para botão -->
+ 
+
+    <span id="burger" class="material-symbols-outlined" onclick="clickMenu()">
+        Menu
+    </span>
+
+    <menu id="itens">
+        <ul>
+            <li><a href="./index.html">Introdução ao Javascript</a></li>
+            <li><a href="./exp2.html">Variáveis, tipos de dados.</a></li>
+            <li><a href="./exp3.html">Loops e condicionais.</a></li>
+            <li><a href="./exp4.html">Prompts de comando</a></li>
+            <li><a href="./exp5.html">Como os prompts funcionam</a></li>
+        </ul>
+    </menu>
+
+    <article>
+    <main>
+
+
+        <p>
+            <h2>Introdução ao Javascript</h2>
+
+            <p>JavaScript é uma linguagem de programação essencial para o desenvolvimento web. Ela permite criar páginas
+            interativas e dinâmicas. Aqui estão alguns pontos principais para começar:</p>
+
+            <h3>O que é JavaScript?</h3>
+
+            <p>Uma linguagem de programação interpretada, orientada a objetos, que é executada no navegador web do usuário.
+            Permite manipular elementos HTML e CSS dinamicamente.</p>
+
+            <h3>Como começar?</h3>
+
+            <p>Você pode inserir JavaScript diretamente em um arquivo HTML usando a tag script
+            Conceitos básicos:</p>
+
+            <p>Variáveis: Armazenam dados que podem ser usados e manipulados.</p>
+            <p>Funções: Blocos de código que executam tarefas específicas.</p>
+            <p>Eventos: Interações do usuário que podem ser capturadas e tratadas.</p>
+            <p>Manipulação do DOM: Permite alterar o conteúdo e o estilo das páginas HTML.</p>
+            <p>Integração com APIs: Permite a comunicação com servidores para obter dados dinâmicos.</p>
+            <p>JavaScript é uma ferramenta poderosa para tornar suas páginas web interativas.</p>
+        </p>
+    </article>
+    </main>
+    <footer>
+        <p>&copy; Juliane - 2024</p>
+    </footer>
+    <!-- aqui é o final do footer -->
+    <script src="./assets/js/exp.js">
+        window.alert('Bem Vindo ao site!')
+        // window.prompt('uma pergunta qualquer...')
+        let usuario = prompt('Qual o seu nome?')
+        let nome = prompt('Qual informação você deseja?')
+        let perguntas = prompt('Questions')
+        let idade = prompt('Qual a sua idade?')
+        alert('Olá,  ' + usuario + '  seu nome é,  ' + nome + '  sua idade é  ' + idade + '  sua questão é: ' + perguntas + '.')
+
+    </script>
+    <!-- aqui é o final do body -->
+</body>
+
+</html>
